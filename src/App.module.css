@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(245, 236, 225);
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem;
+}
+.container h1{
+    padding: 20px 20px;
+    font-family: 'Staatliches', cursive;
+    color:rgb(119, 29, 29);
+    margin-bottom:2rem;
+    
+}
+@media (max-width:770px){
+    .container{
+        margin:0 10%;
+    } 
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+ }
+ @media (max-width:440px){
+    
+    h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+ }
